@@ -1,0 +1,12 @@
+ "local-proxy": {
+      "baseUrl": "http://192.168.1.7:8787/v1",
+      "api": "openai-completions",
+      "apiKey": "sk-123456-key",
+      "models": [
+        {
+          "id": "QWen3.8-27B",
+          "contextWindow": 128000,
+          "maxTokens": 8192
+        }
+      ]
+ }
